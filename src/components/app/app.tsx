@@ -45,7 +45,9 @@ const App = () => {
       <AppHeader />
       <Routes location={background || location}>
         <Route path='/' element={<ConstructorPage />} />
+        <Route path='/ingredients/:id' element={<IngredientDetails />} />
         <Route path='/feed' element={<Feed />} />
+        <Route path='/feed/:number' element={<OrderInfo />} />
         <Route
           path='/login'
           element={
