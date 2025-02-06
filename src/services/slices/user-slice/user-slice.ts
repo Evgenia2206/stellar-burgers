@@ -1,6 +1,6 @@
 import { createSlice, createAsyncThunk } from '@reduxjs/toolkit';
-import { TUser } from '../../utils/types';
-import { deleteCookie, setCookie } from '../../utils/cookie';
+import { TUser } from '../../../utils/types';
+import { deleteCookie, setCookie } from '../../../utils/cookie';
 import {
   registerUserApi,
   loginUserApi,
@@ -12,7 +12,7 @@ import {
   resetPasswordApi,
   TRegisterData,
   TLoginData
-} from '../../utils/burger-api';
+} from '../../../utils/burger-api';
 
 export interface UserState {
   isLoading: boolean;

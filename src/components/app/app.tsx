@@ -18,8 +18,8 @@ import { useEffect } from 'react';
 import {
   getUserThunk,
   checkUserStatus
-} from '../../services/slices/user-slice';
-import { getIngredientsThunk } from '../../services/slices/ingredients-slice';
+} from '../../services/slices/user-slice/user-slice';
+import { getIngredientsThunk } from '../../services/slices/ingredients-slice/ingredients-slice';
 import { ProtectedRoute } from '../protected-route/protected-route';
 
 const App = () => {

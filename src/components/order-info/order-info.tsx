@@ -7,8 +7,8 @@ import { useDispatch, useSelector } from '../../services/store';
 import {
   getOrderThunk,
   getOrderSelector
-} from '../../services/slices/order-slice';
-import { getIngredientsSelector } from '../../services/slices/ingredients-slice';
+} from '../../services/slices/order-slice/order-slice';
+import { getIngredientsSelector } from '../../services/slices/ingredients-slice/ingredients-slice';
 
 export const OrderInfo: FC = () => {
   const dispatch = useDispatch();
