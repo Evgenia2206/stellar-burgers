@@ -6,7 +6,7 @@ import { useDispatch, useSelector } from '../../services/store';
 import {
   getFeedThunk,
   getOrdersSelector
-} from '../../services/slices/feed-slice';
+} from '../../services/slices/feed-slice/feed-slice';
 
 export const Feed: FC = () => {
   const dispatch = useDispatch();

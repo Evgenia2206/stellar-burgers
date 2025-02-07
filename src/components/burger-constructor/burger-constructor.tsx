@@ -8,8 +8,8 @@ import {
   sendOrderThunk,
   setNullOrderModalData,
   getConstructorSelector
-} from '../../services/slices/burgerConstructor-slice';
-import { isAuthorizedSelector } from '../../services/slices/user-slice';
+} from '../../services/slices/burgerConstructor-slice/burgerConstructor-slice';
+import { isAuthorizedSelector } from '../../services/slices/user-slice/user-slice';
 
 export const BurgerConstructor: FC = () => {
   const navigate = useNavigate();

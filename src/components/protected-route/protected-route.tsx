@@ -1,6 +1,6 @@
 import { Navigate, useLocation } from 'react-router-dom';
 import { useSelector } from '../../services/store';
-import { isAuthorizedSelector } from '../../services/slices/user-slice';
+import { isAuthorizedSelector } from '../../services/slices/user-slice/user-slice';
 import { ReactElement } from 'react';
 
 type TProtectedRoute = {
